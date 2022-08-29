@@ -203,8 +203,8 @@ set $base0F #be5046
 
 bar {
 	status_command /usr/bin/bumblebee-status \
-		-m cpu time \
-		-p time_format="%H:%M" \
+		-m cpu date time \
+		-p time_format="%H:%M" date.format="%d %b, %Y"\
 		-t onedark-powerline
 		
 		position top
@@ -248,4 +248,4 @@ default_floating_border pixel 1
 # Gaps configuration 
 for_window [class=".*"] border pixel 1 
 #border_radius 2 
-gaps inner 12 
+gaps inner 12

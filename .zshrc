@@ -14,6 +14,11 @@ zle_highlight=('paste:none')
 # beeping is annoying
 unsetopt BEEP
 
+alias ssh='TERM=xterm-256color ssh'
+alias chiplink='nohup /home/tormod/programs/Microchip/ChipLink/bin/chiplink &'
+alias p='sudo pacman -S'
+alias y='yay -S'
+bindkey "^[[3~" delete-char
 
 # completions
 autoload -Uz compinit
@@ -85,3 +90,6 @@ export BROWSER="brave"
 
 # For QT Themes
 export QT_QPA_PLATFORMTHEME=qt5ct
+
+# VI MODE OVERRIDE, SET EMACS MODE
+bindkey -e

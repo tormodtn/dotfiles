@@ -28,6 +28,7 @@ makepkg -s -i -c
 
 ## i3-alternating-layout
 
+Install package python-i3ipc
 Clone i3-alternating-layout repo into .config/i3/
 ```
 git clone https://github.com/olemartinorg/i3-alternating-layout.git

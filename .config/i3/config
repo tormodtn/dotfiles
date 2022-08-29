@@ -204,7 +204,7 @@ set $base0F #be5046
 bar {
 	status_command /usr/bin/bumblebee-status \
 		-m cpu date time \
-		-p time_format="%H:%M" date.format="%d %b, %Y"\
+		-p time.format="%H:%M:%S" date.format="%d %b, %Y"\
 		-t onedark-powerline
 		
 		position top

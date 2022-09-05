@@ -19,6 +19,14 @@ alias chiplink='nohup /home/tormod/programs/Microchip/ChipLink/bin/chiplink &'
 alias p='sudo pacman -S'
 alias y='yay -S'
 bindkey "^[[3~" delete-char
+alias gaa='git add -A'
+alias gaf='git add -f'
+alias gap='git add -p'
+alias gcm='git commit -m'
+alias gp='git push'
+alias gpu='git pull'
+alias gf='git fetch'
+alias gd='git diff'
 
 # completions
 autoload -Uz compinit
